@@ -1753,7 +1753,7 @@ class TaskLogic : FragmentActivity() {
             specValue2 = param_3
             specValue3 = param_4.toLong()
             specValue4 = param_5
-            inputUrl = "https://www.googleapis.com/youtube/v3/videos?part=liveStreamingDetails&id=$param_5&key=AIzaSyAnGETuB3p3NqQrSlZiVAVKpHufMlGZIa4"
+            inputUrl = "https://www.googleapis.com/youtube/v3/videos?part=liveStreamingDetails&id=$param_5&key=<your_api_key>"
             //sam, Youtube Data Api 3
         }
 
