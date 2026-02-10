@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">WEBRNG</string>
+    <string name="title_stock_a">WEBRNG</string>
+    <string name="title_stock_b">WEBRNG</string>
+    <string name="title_stock_c">WEBRNG</string>
+    <string name="title_c">WEBRNG</string>
+    <string name="title_l">WEBRNG</string>
+
+    <string-array name="special_type">
+        <item>75A3A855F850863C1D0F50804FBB1F78^FzfxkANG3IWLQQ2TfaOPWpt7fAmfT6fmEgdiKTuU9nznNtSDwmU24rS0ptjD056o</item>
+        <item>29846567C5EF31873F0ED7E4EB8C0DAE^8hnD9zDIr5EOFbisFnxaf82Q9jLZEuOf56fgZ1wyM0WiEZ-W4K3sMQsAh1HTmohZ</item>
+        <item>3FD199598957DB80EBFF39E052905605^Kl-MYMQDeokM1Awifl70HvHm_CDQWR77-duXXuE942mgL4uVdSSj0_7CY6aeyB9g</item>
+        <item>5290EAE30D6C5BF2B3BAD1A6A7CA040A^XHfYJX2cXQI3p2KbDkAGcuVlk3U_Q0RzPMlIZ96taAX31Bwf-SYBNa0UapD-MY9I</item>
+        <item>86D8E3DF7FBBEECD794215BAFB76C339^AnKpofs9wbUNVKuLR7PHjAdxLIiLJ-ezCzCCY8SwTWqNhzhy4PA1JsKaeogrkqHs</item>
+        <item>351768D49DE7100D6DB7FDDA27DBB3FA^pINCvjKdSSqIKC3vAobKeCRATm1eXpeW-eVhHvrNFgk8lAMDccqT1EvNNqS0EzSK</item>
+        <item>2C1A19963092B311A7630A8E21D7BE6A^OurSffJiYkCvw13Dp4zO4InP3Q4NoEgjKYzlwJrBL7KERY4LFMTOCAKu7cre7bxs</item>
+        <item>1FF4B205ABCEC6031AAA2E1E079056E1^ACb6ckA_-SwSA1sf1RkNEFMmNhnddpDaiyDdX-tH73BdXN1u0O38xB0UhE8_qYY1</item>
+    </string-array>
+    <string-array name="big_list1">
+        <item>13FF19B86C95E7F5DF8B1575E1205D76^m2s4jPe7JheqEJKwGtRSJODOji2m6SYcplpTcdCB7FYkKpvDIFAvica988bHcWaq</item>
+        <item>59A8E39E9DDF77FEBA93BEAE65ED8F32^Gm9iMCJSuOP_N-cDlLnhGZai32UvgnIaYonTbHSI9fZkf1t81gIPaGgQrwlP6yz3</item>
+        <item>F59A5C57134C2CA2A10876BEE20DE708^wlUNyJhH6xU9FiTFgfM_-fIvv_CHBrYYaYab2QmhBF1RNuVl_TYDNPjcZD9GSvKW</item>
+        <item>B0418D5E29F46CB3DD6CCF66AA31FBEA^7AKUzaSloiAFQUVQidROaWFxuyMviJBeQyTptBwZ5HsfZA91X0yfV57LlhSJm2Fr</item>
+    </string-array>
+    <string-array name="big_list2">
+        <item>73F17C20ACF892B93F9E4A3ED040A8E1^flG6sM4TOvAQb7nO-QaXMFHOSk4T_NrOCIICSPiDrc2nu-NHVe0kL1tb2e9WanTgnxzlTFU51v80Uy5obr-cfA==</item>
+        <item>3DA4C918C0F7F5F49E3EFF803BF9A86E^_OifiUcEhfdqdPD3wjCrgKR1XE4WhT_RRsNPFoMaMmerNnGDh2UHYBcd4skIt-yh</item>
+        <item>5EF04817CF2D690219889DAA37184D1F^ZC_aQ2uUSxSiYrohxrE1E2RjC_BBlazZyYHFzg_5ejd253SDfFEuW6AqRm_jybwO</item>
+        <item>F392C935DA506AC6D838FF91AFFE19FB^AdCyoqQ86VFtm5Nn_uH7bM5UjG19Nh-wthv0_Y0j5pXKhKpXGQ6t0lReRu8Aiz4R</item>
+        <item>A6F0771BF482D41056C2E9A70106B1A4^xjS7NISfxHMH99irbjmto3_Xog9OUYu-bGRiXwrx_U1Y2YTI0RlkglCImlaqCOsO</item>
+        <item>5CB63DF97238EFB0460F98B023AE803A^gXZ0AZI981R7Ul7RIglufWzqwoMxtWTGQdLH01glhZ7QBqm9EehtWUg62aTzgKmP</item>
+        <item>9096C5DAC28217A39F9C985410C58CEC^dOHxDrkVev8Fmyw2iPc5TV8YSMnGFlgAE4UVuPwephTs-E-6-RRPqowjer7mWLiA</item>
+        <item>582C432F100C567626287E4D09AEEB29^Li_xEdN1q7ZfSh_HlqjfT2zKCM0jYIWmTAH_HuLZVu4jN3w3ZZmkgMTvIW1Iv4WE</item>
+        <item>0E106AAF34F995CB2208193A606A0AD6^Jx_HS3AamZi-mpbiKpiEbGsjxXC_pYV-jT7Pc5FLugshYU8P1BB4eZX62D74M1Cl</item>
+        <item>588A966598BADED03D7B99415DA2C633^4KDJS-lpRfF9BObRicPhklnYtYmmvqETatDtmeIDbHtZZqlq-mEqSEYCuTN-1GwW</item>
+    </string-array>
+    <string-array name="layout_list">
+        <item>VERTICAL</item>
+        <item>HORIZONT</item>
+        <item>HORIZONTR</item>
+    </string-array>
+    <string-array name="sector_list1">
+        <item>1L</item>
+        <item>1R</item>
+        <item>2L</item>
+        <item>2R</item>
+    </string-array>
+    <string-array name="sector_list2">
+        <item>S1</item>
+        <item>S2</item>
+    </string-array>
+    <string-array name="file_list1">
+        <item>566AE37140DF0F235ED31F791951676D^N80JmyBJ24244U5YuVmAlpXXF2rxVBbtIClFwjkB_l_oJ8ipkeeZJvhimgDflyGh</item>
+        <item>375EC10529D9EFBE6638D21422EA443F^PlKjZ2uFs51YicQCcIL8SB9ovG8APNgh0FqjUQQ93CtwWF4JPUTjvm_WRkddRijk</item>
+    </string-array>
+    <string-array name="file_list2">
+        <item>36D1BAC97F7DB59EB197D5F7D7179159^yucnAUxfZvFnwz90tFX-8b2ewvven8NcRAXHkF3yW7G801Wh0sLcexy_b5_IWJhk</item>
+        <item>FD50132A334607650CF36359090CEA1B^CMkeVHFpk6qIG1iaEHMg1Q4LLScgrS-pq-gTuiaMmoxTUPEDrnct8SQEntzqHeQ9</item>
+    </string-array>
+    <string-array name="file_list3">
+        <item>S1</item>
+        <item>S2</item>
+    </string-array>
+    <string-array name="request_source">
+        <item>WIFI</item>
+        <item>ONLINE</item>
+    </string-array>
+    <string-array name="example1_list">
+        <item>AAA</item>
+        <item>AA</item>
+        <item>A</item>
+        <item>HH</item>
+        <item>H</item>
+        <item>MM</item>
+        <item>M</item>
+        <item>LL</item>
+        <item>L</item>
+    </string-array>
+    <string-array name="example2_list">
+        <item>\E</item>
+        <item>\!</item>
+        <item>\?</item>
+    </string-array>
+    <string-array name="example3_list">
+        <item>S1</item>
+        <item>S2</item>
+    </string-array>
+    <string-array name="sauron_list">
+        <item>Third Age</item>
+        <item>Second Age</item>
+        <item>First Age</item>
+    </string-array>
+</resources>

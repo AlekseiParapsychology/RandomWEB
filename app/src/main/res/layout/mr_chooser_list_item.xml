@@ -1,0 +1,451 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sauron_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1CFE75"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <RelativeLayout
+        android:id="@+id/sauron_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/sauron_layout2"
+        android:layout_below="@+id/object0419"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:background="#2cde85" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFCA">
+
+                <TextView
+                    android:id="@+id/sauron_output"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FFF5AF"
+                    android:gravity="center"
+                    android:scrollbars="vertical"
+                    android:text="App Control"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sauron_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFCA">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:background="#8BC34A"/>
+            <Button
+                android:id="@+id/object0402"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:layout_weight="1"
+                android:background="#FF9800"
+                android:onClick="goToInputControl"
+                android:text="INPUT" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:background="#8BC34A"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TableLayout
+        android:id="@+id/object0403"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:background="#2cde85"
+        android:backgroundTint="#2cde85"
+        android:gravity="center"
+        android:stretchColumns="0,1,2">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_margin="1dp"
+            android:layout_weight="5"
+            android:background="#FFE6CC">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/object0404"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#FFE4D5"
+                    android:gravity="center"
+                    android:minWidth="1dip"
+                    android:minHeight="1dip"
+                    android:onClick="shortcutIcon"
+                    android:text="SCALE"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#0F24E0"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/object0405"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#D3FFD5"
+                    android:gravity="center"
+                    android:minWidth="1dip"
+                    android:minHeight="1dip"
+                    android:onClick="getBase"
+                    android:text="BASE"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#0F24E0"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <Button
+                    android:id="@+id/object0406"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#E2AAFF"
+                    android:gravity="center"
+                    android:minWidth="1dip"
+                    android:minHeight="1dip"
+                    android:onClick="restoreBase1"
+                    android:text="REST1"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#0F24E0"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/object0407"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#E2AAFF"
+                    android:gravity="center"
+                    android:minWidth="1dip"
+                    android:minHeight="1dip"
+                    android:onClick="restoreBase2"
+                    android:text="REST2"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#0F24E0"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/object0408"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#E2AAFF"
+                    android:gravity="center"
+                    android:minWidth="1dip"
+                    android:minHeight="1dip"
+                    android:onClick="clearReserveBase"
+                    android:text="RSV"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#0F24E0"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/object0409"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#E2AAFF"
+                    android:gravity="center"
+                    android:minWidth="1dip"
+                    android:minHeight="1dip"
+                    android:onClick="setSqlVerification"
+                    android:text="PUSH"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#0F24E0"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="#FFE6CC">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_margin="0dp"
+                android:background="#F6E300"
+                android:gravity="center"
+                android:text="Storage"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:layout_margin="0dp"
+                android:background="#E6E300"
+                android:gravity="center"
+                android:text="Backup"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="10sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_margin="1dp"
+            android:layout_weight="5"
+            android:background="#FFE6CC">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/object0410"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#FFE4D5"
+                    android:gravity="center"
+                    android:minWidth="1dip"
+                    android:minHeight="1dip"
+                    android:onClick="setClearStorage"
+                    android:text="PRINT"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#0F24E0"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/object0411"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#D3FFD5"
+                    android:gravity="center"
+                    android:minWidth="1dip"
+                    android:minHeight="1dip"
+                    android:onClick="generateAES"
+                    android:text="KEY"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#0F24E0"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <Button
+                    android:id="@+id/object0412"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#808DFF"
+                    android:gravity="center"
+                    android:minWidth="1dip"
+                    android:minHeight="1dip"
+                    android:onClick="decryptAES"
+                    android:text="RAW"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#0F24E0"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/object0413"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#808DFF"
+                    android:gravity="center"
+                    android:minWidth="1dip"
+                    android:minHeight="1dip"
+                    android:onClick="encryptAES"
+                    android:text="AES"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#0F24E0"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/object0414"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#808DFF"
+                    android:gravity="center"
+                    android:minWidth="1dip"
+                    android:minHeight="1dip"
+                    android:onClick="setStorageExport"
+                    android:text="EXP"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#0F24E0"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/object0415"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#808DFF"
+                    android:gravity="center"
+                    android:minWidth="1dip"
+                    android:minHeight="1dip"
+                    android:onClick="setStorageImport"
+                    android:text="IMP"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#0F24E0"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="#FFE6CC">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_margin="0dp"
+                android:background="#F6E300"
+                android:gravity="center"
+                android:text="Security"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:layout_margin="0dp"
+                android:background="#E6E300"
+                android:gravity="center"
+                android:text="Cache"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="10sp" />
+
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/object0416"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/object0403"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Spinner
+            android:id="@+id/object0417"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#64FF22" />
+
+        <Spinner
+            android:id="@+id/object0418"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:background="#0FFFF5"
+            android:entries="@array/request_source"
+            android:gravity="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/object0419"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/object0416"
+        android:layout_margin="1dp"
+        android:background="#FFE6CC">
+
+        <EditText
+            android:id="@+id/object0420"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:background="#FFFFFF"
+            android:focusable="true"
+            android:gravity="left"
+            android:hint="INPUT"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColorHighlight="#ff7eff15"
+            android:textColorHint="#ffff25e6"
+            android:textSize="10sp"
+            android:inputType="textVisiblePassword" />
+    </LinearLayout>
+</RelativeLayout>

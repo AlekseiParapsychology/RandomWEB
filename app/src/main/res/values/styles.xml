@@ -1,0 +1,54 @@
+<resources>
+    <style name="style01" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="colorPrimary">@color/color01</item>
+        <item name="colorPrimaryDark">@color/color02</item>
+        <item name="colorAccent">@color/color03</item>
+    </style>
+    <style name="style02" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowDisablePreview">false</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="colorPrimary">@color/color01</item>
+        <item name="colorPrimaryDark">@color/color02</item>
+        <item name="colorAccent">@color/color03</item>
+    </style>
+    <style name="style03">
+        <item name="android:textSize">10sp</item>
+    </style>
+    <style name="style04">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColorPrimary">#00FFFFFF</item>
+    </style>
+    <style name="style05" parent="android:Widget.TextView.SpinnerItem">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FF0000</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="style06" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FF0000</item>
+        <item name="android:background">#80A0FFB0</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment">inherit</item>
+    </style>
+    <style name="style07" parent="android:Widget.TextView.SpinnerItem">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">#80A0FFB0</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="style08" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">#80A0FFB0</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment">inherit</item>
+    </style>
+    <style name="style09" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+</resources>

@@ -1,0 +1,348 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sauron_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1CFE75"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+
+
+    <RelativeLayout
+        android:id="@+id/sauron_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/sauron_layout2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:background="#2cde85" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <ListView
+                    android:id="@+id/object1001"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2px"
+                    android:layout_weight="1"
+                    android:background="#FFAF7A"
+                    android:choiceMode="singleChoice"
+                    android:gravity="center"
+                    android:scrollbars="vertical" />
+
+                <ListView
+                    android:id="@+id/object1002"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2px"
+                    android:layout_weight="1"
+                    android:background="#FFAF7A"
+                    android:choiceMode="singleChoice"
+                    android:gravity="center"
+                    android:scrollbars="vertical" />
+
+                <ListView
+                    android:id="@+id/object1003"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2px"
+                    android:layout_weight="1"
+                    android:background="#FFAF7A"
+                    android:choiceMode="singleChoice"
+                    android:gravity="center"
+                    android:scrollbars="vertical" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#F6E300">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5"
+                        android:layout_centerInParent="true"
+                        android:orientation="vertical"
+                        android:weightSum="24">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="23"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:weightSum="39">
+
+                            <TextView
+                                android:id="@+id/object1004"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="6"
+                                android:gravity="center"
+                                android:onClick="sortSectorByName"
+                                android:text="Sector"
+                                android:textSize="9sp" />
+
+                            <TextView
+                                android:id="@+id/object1005"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="11"
+                                android:gravity="left|center"
+                                android:onClick="sortSectorByEarthSol"
+                                android:text="ES"
+                                android:textSize="9sp" />
+
+                            <TextView
+                                android:id="@+id/object1006"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="11"
+                                android:gravity="left|center"
+                                android:onClick="sortSectorByWeek"
+                                android:text="1W"
+                                android:textSize="9sp" />
+
+                            <TextView
+                                android:id="@+id/object1007"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="11"
+                                android:gravity="left|center"
+                                android:onClick="sortSectorByMonth"
+                                android:text="1M"
+                                android:textSize="9sp" />
+                        </LinearLayout>
+
+                        <ListView
+                            android:id="@+id/object1008"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="2px"
+                            android:layout_weight="1"
+                            android:background="#FFFEEA"
+                            android:choiceMode="singleChoice"
+                            android:gravity="center"
+                            android:scrollbars="vertical" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5"
+                        android:layout_centerInParent="true"
+                        android:orientation="vertical"
+                        android:weightSum="32" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4"
+                            android:layout_centerInParent="true"
+                            android:orientation="vertical"
+                            android:weightSum="18">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="17"
+                                android:gravity="center"
+                                android:orientation="horizontal"
+                                android:weightSum="39">
+
+                                <TextView
+                                    android:id="@+id/object1009"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="6"
+                                    android:gravity="center"
+                                    android:onClick="sortMarketByStock"
+                                    android:text="Stock"
+                                    android:textSize="9sp" />
+
+                                <TextView
+                                    android:id="@+id/object1010"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="11"
+                                    android:gravity="left|center"
+                                    android:onClick="sortMarketByEarthSol"
+                                    android:text="ES"
+                                    android:textSize="9sp" />
+
+                                <TextView
+                                    android:id="@+id/object1011"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="11"
+                                    android:gravity="left|center"
+                                    android:onClick="sortMarketByWeek"
+                                    android:text="1W"
+                                    android:textSize="9sp" />
+
+                                <TextView
+                                    android:id="@+id/object1012"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="11"
+                                    android:gravity="left|center"
+                                    android:onClick="sortMarketByMonth"
+                                    android:text="1M"
+                                    android:textSize="9sp" />
+                            </LinearLayout>
+
+                            <ListView
+                                android:id="@+id/object1013"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="2px"
+                                android:layout_weight="1"
+                                android:background="#FFFEEA"
+                                android:choiceMode="singleChoice"
+                                android:gravity="center"
+                                android:scrollbars="vertical" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="15"
+                            android:layout_centerInParent="true"
+                            android:orientation="horizontal"
+                            android:weightSum="6">
+
+                            <Button
+                                android:id="@+id/object1014"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="4"
+                                android:background="#AAFF40"
+                                android:gravity="center"
+                                android:minWidth="1dip"
+                                android:minHeight="1dip"
+                                android:onClick="setTask"
+                                android:text="TASK"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="#0F24E0"
+                                android:textSize="14sp" />
+
+                            <android.support.design.widget.TabLayout
+                                android:id="@+id/object1015"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="2"
+                                android:background="#CCFFAF"
+                                app:tabTextAppearance="@style/style09" >
+
+                                <android.support.design.widget.TabItem
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="USA" />
+
+                                <android.support.design.widget.TabItem
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="MOEX" />
+                            </android.support.design.widget.TabLayout>
+                        </LinearLayout>
+
+                        <ListView
+                            android:id="@+id/object1016"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="2px"
+                            android:layout_weight="13"
+                            android:background="#FFFEEA"
+                            android:choiceMode="singleChoice"
+                            android:gravity="center"
+                            android:scrollbars="vertical" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/object0501"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_centerHorizontal="true"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/sauron_output"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FFF5AF"
+                    android:gravity="center"
+                    android:scrollbars="vertical"
+                    android:text="Reqeust Log"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sauron_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFCA">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:background="#8BC34A"/>
+            <Button
+                android:id="@+id/object0402"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:layout_weight="1"
+                android:background="#FF9800"
+                android:onClick="goToInputThermo"
+                android:text="INPUT" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:background="#8BC34A"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,315 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A0FFB0"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+
+
+    <ImageView
+        android:id="@+id/object0001"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/sauron_layout2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:background="#A0FFB0" />
+
+    <RelativeLayout
+        android:id="@+id/object0002"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:visibility="gone"
+        android:background="#EA1E64">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/object0003"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#009688"
+                    android:gravity="center"
+                    android:minWidth="1dip"
+                    android:minHeight="80dp"
+                    android:onClick="launchTiger"
+                    android:text="LAUNCH"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#000000"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/object0004"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#00BCD4"
+                    android:gravity="center"
+                    android:minWidth="1dip"
+                    android:minHeight="80dp"
+                    android:onClick="goToInput"
+                    android:text="EXIT"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#000000"
+                    android:textSize="30sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <Spinner
+                        android:id="@+id/object0006"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textStyle="bold"
+                        android:visibility="gone"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:background="#A0FFB0" >
+                        <TextView
+                            android:id="@+id/inputRangeValue"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="Context Size"
+                            android:textSize="20sp"/>
+                    </LinearLayout>
+                    <Spinner
+                        android:id="@+id/object0005"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textStyle="bold"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <Spinner
+                        android:id="@+id/object0008"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/object0007"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:focusable="true"
+                        android:gravity="center"
+                        android:hint="Value"
+                        android:maxLength="4"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColorHighlight="#ff7eff15"
+                        android:textColorHint="#ffff25e6"
+                        android:textSize="45sp"
+                        android:inputType="number|textVisiblePassword" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/object0009"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_above="@+id/sauron_layout2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="0dp"
+        android:visibility="gone"
+        android:background="#EA1E64">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <Button
+                android:id="@+id/object0010"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00FFF7"
+                android:gravity="center"
+                android:minWidth="1dip"
+                android:minHeight="80dp"
+                android:onClick="goToInput"
+                android:text="INPUT"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/object0011"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#A0FFB0"
+                android:gravity="center"
+                android:minWidth="1dip"
+                android:minHeight="80dp"
+                android:onClick="goToInput"
+                android:text="EXIT"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <Spinner
+                        android:id="@+id/object0012"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textStyle="bold" />
+
+                    <Spinner
+                        android:id="@+id/object0013"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/object0014"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#3F54B4"
+                    android:gravity="center"
+                    android:minWidth="1dip"
+                    android:minHeight="80dp"
+                    android:onClick="changeLayout"
+                    android:text="CHANGE"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#000000"
+                    android:textSize="30sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sauron_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        android:background="#4CAF50">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight=".50"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/object0016"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#00BCD4"
+                    android:gravity="center"
+                    android:minWidth="1dp"
+                    android:minHeight="1dp"
+                    android:onClick="showSection1"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#000000"
+                    android:textSize="30sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
